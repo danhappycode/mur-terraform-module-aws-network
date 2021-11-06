@@ -25,3 +25,6 @@ output "private_subnet_ids" {
   ]
 }
 
+output "route53_id" {
+  value = aws_route53_zone.private-zone.zone_id
+}
